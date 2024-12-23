@@ -6,7 +6,9 @@ const app = express();
 
 app.use(cors()); 
 
-app.use(express.json()); 
+app.use(express.json());
+
+const PORT = process.env.PORT || 3000; 
 
 app.post('/students', async (req, res) => {
   const { name, cohort, courses, dateJoined, lastLogin, status } = req.body;
@@ -88,6 +90,6 @@ app.delete('/students/:name', async (req, res) => {
   }
 });
 
-app.listen(3000, () => {
-  console.log('Server is running');
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
