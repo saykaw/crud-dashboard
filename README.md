@@ -11,3 +11,5 @@ Screenshots:
 
 5) Delete student
 <img width="1470" alt="Delete-student" src="https://github.com/user-attachments/assets/d01cf213-1963-4468-82cb-cb8ed5ee0d0d" />
+
+Deployed Link: [https://crud-dashboard-client.onrender.com/](url)
