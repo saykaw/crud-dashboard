@@ -35,7 +35,7 @@ const Navbar = () => {
               </div>
   
               <div className='flex'>
-                  <img className='w-13 h-12 rounded' src='public/woman-smiling.jpg' />
+                  <img className='w-13 h-12 rounded' src='woman-smiling.jpg' />
                   <div className='text-black font-bold py-3 px-5 tracking-wide '> Adeline H. Dancy </div>
               </div>
   
